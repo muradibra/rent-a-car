@@ -1,8 +1,5 @@
-import SettingsIcon from "@/assets/icons/settings.svg";
 import HeartIcon from "@/assets/icons/heart.svg";
 import ChartIcon from "@/assets/icons/chart.svg";
-import NofiticationIcon from "@/assets/icons/notification.svg";
-import { LogOutIcon, User2Icon } from "lucide-react";
 
 import { Link } from "react-router-dom";
 import { DialogTypeEnum, useDialog } from "@/hooks/useDialog";
@@ -21,6 +18,7 @@ import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import { logoutAsync, selectAuth } from "@/store/auth";
 import { RenderIf } from "../RenderIf";
 import { Spinner } from "../Spinner";
+import { LogOutIcon, User2Icon } from "lucide-react";
 
 export const NavbarActions = () => {
   const { openDialog } = useDialog();

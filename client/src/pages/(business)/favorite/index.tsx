@@ -1,11 +1,8 @@
 import InfiniteScroll from "react-infinite-scroll-component";
 import { ClipLoader } from "react-spinners";
-
-import { AvailabilityFilter } from "@/components/shared/availability-filter";
 import { ScrollToTop } from "@/components/shared/ScrollToTop";
 import { RentCard } from "@/components/shared/rent-card";
 import { RenderIf } from "@/components/shared/RenderIf";
-import { Filters } from "./components/Filters";
 import { LIST_TAKE_COUNT } from "@/constants";
 import { useSearchParams } from "react-router-dom";
 import { useInfiniteQuery } from "@tanstack/react-query";
