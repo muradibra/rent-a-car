@@ -19,7 +19,7 @@ function main() {
     return __awaiter(this, void 0, void 0, function* () {
         const username = process.env.DB_USERNAME;
         const password = process.env.DB_PASSWORD;
-        yield mongoose_1.default.connect(`mongodb+srv://${username}:${password}@cluster0.lrrw8.mongodb.net/rent-a-car?retryWrites=true&w=majority&appName=Cluster0`);
+        yield mongoose_1.default.connect(`mongodb+srv://${username}:${password}@cluster0.iz1hytg.mongodb.net/rent-a-car`);
     });
 }
 main()
